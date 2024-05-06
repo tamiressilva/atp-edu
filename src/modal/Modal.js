@@ -7,7 +7,7 @@ const Modal = (props) => {
                     <h2>Mensagem do Sistema:</h2>
                     <button onClick={props.onClose} className="clear">X</button>
                 </div>
-                {props.mensagem}
+                {props.menssagem}
             </div>
 
         </div>

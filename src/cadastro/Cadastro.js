@@ -103,9 +103,7 @@ class Cadastro extends Component {
                                   onChange={(e) => this.setState({senha: e.target.value})}/>
                                   
                            <input type="submit" value="Cadastrar" className="btn-cadastrar"/>
-                           <div className="div-button">
-                            <p className="p-entrar" onClick={this.home}>Entrar</p> 
-                            </div>
+                    
                        </div>
                        {this.state.rendered &&
                            <Modal mensagem={this.state.mensagem} onClose={() => this.setState({ rendered: false })}></Modal>
